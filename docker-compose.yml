@@ -14,7 +14,7 @@ services:
     ports:
       - "8080:80"
     networks:
-      - laravel_network
+      - laravel_networñk
   db:
     image: postgres:13
     container_name: surtidor-db
